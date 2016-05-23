@@ -15,6 +15,7 @@ TEMPLATE = app
 SOURCES += main.cpp\
         plooter.cpp
 
-HEADERS  += plooter.h
+HEADERS  += plooter.h \
+    types.h
 
 FORMS    += plooter.ui
