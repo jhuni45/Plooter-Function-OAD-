@@ -1,11 +1,15 @@
 #include "plooter.h"
 #include <QApplication>
+#include <QDebug>
+#include <QtCore//QCoreApplication>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    Plooter w;
-    w.show();
+    QCoreApplication a(argc,argv);
+
+    QString Palabra ="primeroa purba de oad";
+
+    qDebug()<<Palabra;
 
     return a.exec();
 }
